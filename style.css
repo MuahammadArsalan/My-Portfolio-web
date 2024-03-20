@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+padding: 0; 
+box-sizing: border-box
+}
+
+:root{
+    --d-blue:#020245;
+    --l-blue:#07076f;
+    --sky-blue:#0d35a3;
+    --yellow:#f0ff17;
+}
+
+
+html{
+
+    font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
+background-color: var(--d-blue);
+}
+
+/* Navbar styling started */
+
+
+
+nav{
+    background-color: var(--sky-blue);
+    width: 100vw;
+}
+a:hover{
+    border-bottom: 2px solid var(--yellow);
+    transition: 0.3s ease-in-out;
+}
+
+ul a {
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+
+#port{
+    margin: 0.3rem 0 0 6rem;
+    color: white;
+    font-weight:bold;
+    font-size:2rem;
+}
+#link{
+    color: white;
+    gap: 4rem;
+    margin: 1rem 2rem 1rem 0;
+    /* font-weight:bold; */
+    font-size:1.2rem;
+}
+.menu{
+    font-size: 1.8rem;
+    color: white;
+    display: none;
+}
+
+/* Navbar styling ended */
+
+
+
+
+
+@media(max-width:620px){
+    #li{
+        display: none;
+    }
+    
+    .menu{
+        display: block;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
